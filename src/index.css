@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-stars {
+  background-image: url('../public/assets/images/stars.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Adicione esta linha para importar os estilos do react-toastify */
+@import 'react-toastify/dist/ReactToastify.css';
